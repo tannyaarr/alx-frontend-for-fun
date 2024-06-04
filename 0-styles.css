@@ -1,0 +1,36 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    list-style: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 450px;
+    width: 280px;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding-top: 10px;
+    margin: 20px;
+}
+
+span {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+span.i-html {
+    background: url('https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/2/94aa60f76c412f40a87b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240604T133138Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d633147059ea4a23d577c5e4e76c152837943613498b046b43173a17edc71d5f') no-repeat 0px 0px;
+}
+
+span.i-css {
+    background: url('https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/2/94aa60f76c412f40a87b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240604T133138Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d633147059ea4a23d577c5e4e76c152837943613498b046b43173a17edc71d5f') no-repeat -290px 0px;
+}
+
+span.i-js {
+    background: url('https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/2/94aa60f76c412f40a87b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240604%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240604T133138Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d633147059ea4a23d577c5e4e76c152837943613498b046b43173a17edc71d5f') no-repeat -580px 0px;
+}

@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 5px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-open:checked~a,
+label {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #CD5C5C;
+    margin: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input,
+a,
+i {
+    display: none;
+}
+
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.menu-item {
+    animation: slideDown 0.5s ease;
+}
+
+i {
+    color: #ffff;
+}
+
+a.menu-item:hover,
+a.menu-item:focus {
+    background: #ffff;
+    border: 1px solid #CD5C5C;
+    outline: none;
+}
+
+a.menu-item:hover i,
+a.menu-item:focus i {
+    color: #CD5C5C; 
+}
