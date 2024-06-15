@@ -1,0 +1,10 @@
+/* nested elements that are the first children of the body */
+
+body {
+    color: #3D3D3D;
+  
+    > .red {
+      color: #FF0000;
+    }
+  }
+  

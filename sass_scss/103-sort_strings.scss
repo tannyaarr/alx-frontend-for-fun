@@ -1,0 +1,7 @@
+/* sorts the variable $list_to_sort and prints sorted list in debug output */
+
+@import '103-sort_list';
+
+$sorted_list: sort($list_to_sort);
+
+@debug "Sorted list: #{$sorted_list}";

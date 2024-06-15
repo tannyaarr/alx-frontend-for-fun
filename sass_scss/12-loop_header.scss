@@ -1,0 +1,7 @@
+/* H* tages where '*' is the size of the font used */
+
+@for $i from 1 through 5 {
+    h#{$i} {
+      font-size: #{$i}px;
+    }
+  }
